@@ -70,8 +70,8 @@
 ### Project 使用方式
 ---
 1. npm install (安裝專案的相關Denpendency)  
-2. npm start (目前設定執行 config/webpack.config.dev.js，會跑起專案目前設定跑在port 3000，會做hot reload)  
-3. npm build (目前設定執行 config/webpack.config.prod.js，build完的資源會在build/底下)  
+2. npm run start (目前設定執行 config/webpack.config.dev.js，會跑起專案目前設定跑在port 3000，會做hot reload)  
+3. npm run build (目前設定執行 config/webpack.config.prod.js，build完的資源會在build/底下)  
   
   
   
