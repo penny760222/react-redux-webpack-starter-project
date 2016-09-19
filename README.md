@@ -54,12 +54,13 @@
 		* reducers (redux reducers)  
 		* store (放redux的 configureStore.js)  
 		* views (單純的html react component，通常放error page)  
-	    main.jsx (entry point)  
+        * asssets (靜態資源，圖片等等)  
+        * stylesheets (scss檔案或是css檔案，裡面可以自己在新增子目錄)  
+        main.jsx (entry point)  
 		route.js (routing 相關設定)  
-    * asssets (靜態資源，圖片等等)  
-	* bin (跑 webpack 的時候會用到的一些 shell script)  
+    * bin (跑 webpack 的時候會用到的一些 shell script)  
 	* config (webpack不同env的config, 或是其他global的jsonconfig)  
-	* stylesheets (scss檔案或是css檔案，裡面可以自己在新增子目錄)  
+	    
 	index.html (single page entry)  
 	package.json (專案dependency和執行的script)  
 	readme.md  
@@ -85,6 +86,6 @@
 6. redux-devtool (搭配chrome debug, 必備)  
 7. redux-thunk (middleware, 控制反轉dispatch，在action creator能夠做其他的dispatch action)  
 8. redux-motion (做animation or transition比較方便)  
-  
->  以上套件在github上面都可以找到相關文檔  
+   
+以上套件在github上面都可以找到相關文檔  
 
