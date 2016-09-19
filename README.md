@@ -16,7 +16,7 @@
 
 ### IDE選擇
 ---
-- Sublime Text 3  -- 個人目前使用中 推薦的Sublime Text 3 plugin:
+- `Sublime Text 3`  -- 個人目前使用中 推薦的Sublime Text 3 plugin:
     - Babel (ES6 的 syntax)  
     - Babel snippets ( ES6 的 snippets)
     - Emmet (寫html必備，神速工具)
@@ -31,9 +31,9 @@
     - HTML-CSS-JS Prettify (讓程式碼自動縮排 by Linda)
     - Color Highlighter (css 色碼 下面會出現顏色,會馬上知道有沒有放錯顏色 by Linda)
 
-- Atom  -- 目前也蠻主流的  
-- WebStorm -- 要license，有興趣可先用試用版，有需要再叫公司買?
-- visual studio code -- 試用了一下，覺得是個神器，強烈推薦大家使用，推薦的plugin:  
+- `Atom`  -- 目前也蠻主流的  
+- `WebStorm` -- 要license，有興趣可先用試用版，有需要再叫公司買?
+- `visual studio code` -- 試用了一下，覺得是個神器，強烈推薦大家使用，推薦的plugin:  
     - Rainbow Brackets (括號加上顏色，方便補上括號)
     - Prettify JSON (format JSON)
     - sass (sass syntax)
@@ -69,23 +69,24 @@
   
 ### Project 使用方式
 ---
-1. npm install (安裝專案的相關Denpendency)  
-2. npm run start (目前設定執行 config/webpack.config.dev.js，會跑起專案目前設定跑在port 3000，會做hot reload)  
-3. npm run build (目前設定執行 config/webpack.config.prod.js，build完的資源會在build/底下)  
+1. `npm install` (安裝專案的相關Denpendency)  
+2. `npm run start` (目前設定執行 config/webpack.config.dev.js，會跑起專案目前設定跑在port 3000，會做hot reload)  
+3. `npm run build` (目前設定執行 config/webpack.config.prod.js，build完的資源會在build/底下)  
   
   
   
   
 ### redux 我自己的常用套件
 ---
-1. redux-form (我只能說用過之後只有讚，省很多事，可以直接跟後端整合error message和validation) <-- 出v6了，但是動很多，建議還是用v5  
-2. redux-slick (前端一定會有slider的需求，用這就對了)  
-3. redux-select (功能很強的select，有ajax loading options, 和 mutiselect支援)  
-4. redux-router (用redux做的router, 可以將browser history存在store中, 必備)  
-5. react-router (react routing, 必備)  
-6. redux-devtool (搭配chrome debug, 必備)  
-7. redux-thunk (middleware, 控制反轉dispatch，在action creator能夠做其他的dispatch action)  
-8. redux-motion (做animation or transition比較方便)  
-   
+1. `redux-form` (我只能說用過之後只有讚，省很多事，可以直接跟後端整合error message和validation) <-- 出v6了，但是動很多，建議還是用v5  
+2. `redux-slick` (前端一定會有slider的需求，用這就對了)  
+3. `redux-select` (功能很強的select，有ajax loading options, 和 mutiselect支援)  
+4. `redux-router` (用redux做的router, 可以將browser history存在store中, 必備)  
+5. `react-router` (react routing, 必備)  
+6. `redux-devtool` (搭配chrome debug, 必備)  
+7. `redux-thunk` (middleware, 控制反轉dispatch，在action creator能夠做其他的dispatch action)  
+8. `redux-motion` (做animation or transition比較方便)  
+
+
 以上套件在github上面都可以找到相關文檔  
 
