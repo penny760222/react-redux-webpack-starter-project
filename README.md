@@ -2,10 +2,10 @@
 
 ###  專案介紹
 ---
-1. IDE選擇  
-2. Project Folder 介紹  
-3. Project 使用方式  
-4. redux 我自己的常用套件  
+1. [IDE選擇  ](https://github.com/kensomanpow/react-redux-webpack-starter-project#ide選擇)
+2. [Project Folder 介紹](https://github.com/kensomanpow/react-redux-webpack-starter-project#project-folder-介紹)  
+3. [Project 使用方式](https://github.com/kensomanpow/react-redux-webpack-starter-project#project-使用方式)
+4. [redux 我自己的常用套件](https://github.com/kensomanpow/react-redux-webpack-starter-project#redux-我自己的常用套件)  
   
   
 >  PS: 此專案是單頁式應用，多頁式應用不能用這專案  
